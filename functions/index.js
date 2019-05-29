@@ -1,16 +1,16 @@
-const firebase = require("firebase");
+// const firebase = require("firebase");
 
-const config = {
-  apiKey: "AIzaSyD3NWBrL-NQ9KUjvww8CxMXgIV_swSNKNg",
-  authDomain: "nutshell-2-84140.firebaseapp.com",
-  databaseURL: "https://nutshell-2-84140.firebaseio.com",
-  projectId: "nutshell-2-84140",
-  storageBucket: "nutshell-2-84140.appspot.com",
-  messagingSenderId: "981881048797",
-  appId: "1:981881048797:web:27c7260343a2b3ab"
-};
+// const config = {
+//   apiKey: "AIzaSyD3NWBrL-NQ9KUjvww8CxMXgIV_swSNKNg",
+//   authDomain: "nutshell-2-84140.firebaseapp.com",
+//   databaseURL: "https://nutshell-2-84140.firebaseio.com",
+//   projectId: "nutshell-2-84140",
+//   storageBucket: "nutshell-2-84140.appspot.com",
+//   messagingSenderId: "981881048797",
+//   appId: "1:981881048797:web:27c7260343a2b3ab"
+// };
 
-firebase.initializeApp(config);
+// firebase.initializeApp(config);
 
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
