@@ -4,6 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/styles';
 import App from './App';
 import theme from './theme';
+import {BrowserRouter as Router} from "react-router-dom"
 
 import * as firebase from 'firebase/app';
 
@@ -21,9 +22,12 @@ firebase.initializeApp(config);
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
-    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-    <CssBaseline />
-    <App />
+    <Router>
+        {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+        <CssBaseline />
+        <App />
+      </Router>
   </ThemeProvider>,
   document.querySelector('#root'),
 );
+

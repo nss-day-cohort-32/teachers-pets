@@ -14,17 +14,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Icons from '@material-ui/icons';
 
-function MadeWithLove() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Built with love by the '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
-      </Link>
-      {' team.'}
-    </Typography>
-  );
-}
 
 const useStyles = makeStyles(theme => ({
   '@global': {
@@ -138,7 +127,6 @@ export default function SignIn() {
         </form>
       </div>
       <Box mt={5}>
-        <MadeWithLove />
       </Box>
     </Container>
   );
